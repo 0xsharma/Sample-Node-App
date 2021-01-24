@@ -6,7 +6,7 @@ pipeline {
             steps {
                 
                 echo "lol2"
-                sh "docker build -t samplenode ."
+                sh "ifconfig"
             }
         }
     }
