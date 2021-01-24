@@ -6,7 +6,7 @@ pipeline {
             steps {
                 
                 echo "lol2"
-                sh "ifconfig"
+                
             }
         }
     }
