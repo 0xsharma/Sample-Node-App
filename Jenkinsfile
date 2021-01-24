@@ -5,7 +5,7 @@ pipeline {
             steps {
                 
                 bat "docker build -t samplenode ."
-                bat "docker run --name dockerreact -p 80:3000 samplenode"
+                bat "docker run --name samplenodecontainer -p 80:3000 samplenode"
             }
         }
     }
