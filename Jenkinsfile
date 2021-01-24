@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'w62ecs2' }
     
     stages {
         stage('deploy') { 
