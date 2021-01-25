@@ -7,7 +7,7 @@ pipeline {
                 
                 echo "lol2"
                 sh "ls"
-                sh "docker -v"
+                sh "mkdir shivam"
                 
                 
             }
