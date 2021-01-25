@@ -8,7 +8,7 @@ pipeline {
                 echo "lol2"
                 sh "ls"
                 sh "pwd"
-                sh "lshw"
+                
                 
                 
             }
