@@ -6,6 +6,7 @@ pipeline {
             steps {
                 
                 echo "lol2"
+                sh "ls"
                 
                 
             }
