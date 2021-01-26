@@ -5,7 +5,7 @@ pipeline {
         stage('deploy') { 
             steps {
                 
-                echo "lol2"
+                echo "lol5"
                 
                 
                 sh "aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 701782360245.dkr.ecr.us-east-2.amazonaws.com"
